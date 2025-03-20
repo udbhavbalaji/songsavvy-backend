@@ -4,12 +4,7 @@
     "api/**/*.py": {
       "memory": 1024,
       "maxDuration": 10,
-      "excludeFiles": [
-        ".git/**",
-        ".gitignore",
-        ".env",
-        "README.md"
-      ]
+      "excludeFiles": "(.git, .gitignore, .env)/**",
     }
   },
   "routes": [
