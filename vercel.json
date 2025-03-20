@@ -4,7 +4,7 @@
     "api/**/*.py": {
       "memory": 1024,
       "maxDuration": 10,
-      "excludeFiles": "(.git, .gitignore, .env)/**",
+      "excludeFiles": "(.git, .gitignore, .env)/**"
     }
   },
   "routes": [
